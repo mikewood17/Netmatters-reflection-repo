@@ -214,6 +214,7 @@ a {
 }
 
 .secondary-nav {
+  height: 100px;
   background-color: #333645;
 }
 .secondary-nav a {
@@ -232,6 +233,10 @@ a {
   justify-content: center;
   font-size: 1.125rem;
   width: 100%;
+}
+
+.top-nav {
+  width: 200px;
 }
 
 .our-services-container {
@@ -290,7 +295,6 @@ a {
 
 .sitemap:hover {
   text-decoration: underline;
-  color: red;
 }
 
 .footer-bottom {
@@ -604,6 +608,10 @@ a {
 
 .view-all:hover {
   text-decoration: underline;
+}
+
+.col h2 {
+  font-size: 1.3rem;
 }
 
 .article-heading {
