@@ -1,0 +1,123 @@
+//===============================================
+// Containers 
+//===============================================
+
+// Base Containers
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+// Headings container
+.headings-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.search {
+    display: flex;
+}
+
+.search-form{
+    margin-top: 11px;
+    position: relative;
+}
+.secondary-nav{
+    background-color: #333645;
+    a {
+        color: #fff;
+    }
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+
+    }
+}
+
+.nav-container{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.125rem;
+    width: 100%;
+}
+
+// Primary content container
+
+.our-services-container{
+    margin-bottom: 50px;
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+// secondary content container
+
+.review-btn-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+// News section container
+
+.news-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.news{
+    margin-bottom: 40px;
+}
+
+.user{
+    border-top: 1px solid #888;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.details {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+// Footer container
+.footer-row a:hover{
+    text-decoration: underline;
+}
+.offices,
+.services{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.footer-license{
+    display: flex;
+}
+
+.sitemap:hover{
+    text-decoration: underline;
+    color: red;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #888;
+    padding-top: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.social-media{
+    display: flex;
+}

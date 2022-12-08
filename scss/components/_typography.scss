@@ -1,0 +1,81 @@
+//==============================================================
+// Containers
+//==============================================================
+
+
+// base typography 
+
+.topic-header {
+    font-size: 40px;
+}
+.view-all {
+    font-size: 25px;
+}
+
+// Banner area
+
+.headline,
+.tagline {
+    margin-left: 1.25em;
+}
+
+.view-all{
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// secondary content area
+
+.article-heading{
+    color: #fff;
+    font-size: 2.5em;
+}
+.article-content{
+    font-size: 1.5em;
+    p {
+        margin: 0 1.5em 1em 1.5em;
+    }
+}
+.client-quote{
+    font-size: 1.8em;
+    font-style: italic;
+}
+.quote-author{
+    font-size: 1.5em;
+    color: #a3a8ac;
+}
+
+// Latest news area
+
+.details{
+    font-size: 1.2em;
+}
+
+
+// sign up area
+
+.subheading-2{
+    font-size: 2em;
+    color: #333645;
+    font-weight: 400;
+}
+
+.sign-up-input{
+    h3{
+        font-size: 1.4em;
+        font-weight: 600;
+    }
+}
+.sign-up-button-container{
+    font-size: 1.3em;
+    color: #333645;
+    i {
+        color: #fff;
+    }
+}
+.privacy-policy{
+    color:#333645;
+    font-size: 1.2em;
+    font-weight: 600;
+}

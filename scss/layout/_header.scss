@@ -1,0 +1,45 @@
+/*# sourceMappingURL=header.css.map */
+.main-header{
+    width: 100%;
+	padding-top: .5em;
+    width: 100%;
+}
+.upper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.name {
+    float: left;
+	font-size: 2em;
+	margin: auto;
+    width: 100%;
+    max-width: 392px;
+}
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.important-nav {
+    display: flex;
+}
+
+
+.name a,
+.nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
+.nav a {
+	// font-size: 1.125em;
+	text-transform: uppercase;
+}
+.nav-icon:hover{
+    color: #fff;
+}
