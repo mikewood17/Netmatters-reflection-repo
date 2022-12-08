@@ -53,6 +53,26 @@
     width: 200px;
 }
 
+.nav__dropdown{
+    left: 0;
+    width: 100%;
+    color: #FFF;
+    z-index: 99;
+    background-color: #333645;
+    position: absolute;
+    transform: translate(0, 4px);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    visibility: hidden;
+}
+.top-nav:hover {
+
+    .nav__dropdown {
+        visibility: visible;
+    }
+}
+
 // Primary content container
 
 .our-services-container{

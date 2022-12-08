@@ -44,6 +44,13 @@
             i {
                 color: #fff;
             }
+            .nav__dropdown{
+                background-color: darken($color, 10%);
+
+                h3 {
+                    color: #fff;
+                }
+            }
         }
 
     }

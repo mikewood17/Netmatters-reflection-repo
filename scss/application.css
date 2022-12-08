@@ -129,7 +129,7 @@ a {
 }
 
 .block {
-  padding: 1em;
+  padding: 30px;
 }
 .block .button {
   background-color: #3a3a3a;
@@ -240,6 +240,23 @@ a {
 
 .top-nav {
   width: 200px;
+}
+
+.nav__dropdown {
+  left: 0;
+  width: 100%;
+  color: #FFF;
+  z-index: 99;
+  background-color: #333645;
+  position: absolute;
+  transform: translate(0, 4px);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  visibility: hidden;
+}
+
+.top-nav:hover .nav__dropdown {
+  visibility: visible;
 }
 
 .our-services-container {
@@ -422,7 +439,7 @@ a {
   color: #fff;
   text-align: center;
   padding: 0.625em 1.25em;
-  border-radius: 0.35em;
+  border-radius: 3px;
 }
 .button:hover {
   text-decoration: none;
@@ -711,6 +728,12 @@ a {
 .nav-item-1:hover i {
   color: #fff;
 }
+.nav-item-1:hover .nav__dropdown {
+  background-color: #526781;
+}
+.nav-item-1:hover .nav__dropdown h3 {
+  color: #fff;
+}
 
 .item-2 a {
   background-color: #4183d7;
@@ -744,6 +767,12 @@ a {
   text-decoration: none;
 }
 .nav-item-2:hover i {
+  color: #fff;
+}
+.nav-item-2:hover .nav__dropdown {
+  background-color: #286abd;
+}
+.nav-item-2:hover .nav__dropdown h3 {
   color: #fff;
 }
 
@@ -781,6 +810,12 @@ a {
 .nav-item-3:hover i {
   color: #fff;
 }
+.nav-item-3:hover .nav__dropdown {
+  background-color: #25a25a;
+}
+.nav-item-3:hover .nav__dropdown h3 {
+  color: #fff;
+}
 
 .item-4 a {
   background-color: #d64541;
@@ -814,6 +849,12 @@ a {
   text-decoration: none;
 }
 .nav-item-4:hover i {
+  color: #fff;
+}
+.nav-item-4:hover .nav__dropdown {
+  background-color: #bc2c28;
+}
+.nav-item-4:hover .nav__dropdown h3 {
   color: #fff;
 }
 
@@ -851,6 +892,12 @@ a {
 .nav-item-5:hover i {
   color: #fff;
 }
+.nav-item-5:hover .nav__dropdown {
+  background-color: #79539a;
+}
+.nav-item-5:hover .nav__dropdown h3 {
+  color: #fff;
+}
 
 .item-6 a {
   background-color: #f62459;
@@ -886,6 +933,12 @@ a {
 .nav-item-6:hover i {
   color: #fff;
 }
+.nav-item-6:hover .nav__dropdown {
+  background-color: #de093f;
+}
+.nav-item-6:hover .nav__dropdown h3 {
+  color: #fff;
+}
 
 .item-7 a {
   background-color: #ce4125;
@@ -919,6 +972,12 @@ a {
   text-decoration: none;
 }
 .nav-item-7:hover i {
+  color: #fff;
+}
+.nav-item-7:hover .nav__dropdown {
+  background-color: #a3331d;
+}
+.nav-item-7:hover .nav__dropdown h3 {
   color: #fff;
 }
 
