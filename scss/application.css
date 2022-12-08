@@ -81,6 +81,9 @@ a {
 }
 
 .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 30px;
   border-radius: 15px;
   margin: 1.5em 0.8em 0.8em;
