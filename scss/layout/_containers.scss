@@ -51,12 +51,15 @@
     position: relative;
     flex-direction: row;
     justify-content: center;
-    font-size: 1.125rem;
     width: 100%;
 }
 
 .top-nav{
     width: 200px;
+    font-size: 1.125rem;
+}
+.top-nav small {
+    font-size: .625rem;
 }
 
 .nav-dropdown{
@@ -88,6 +91,8 @@
     }
 }
 
+// @media (min-width: )
+
 // Primary content container
 
 .our-services-container{
@@ -98,6 +103,62 @@
     margin-bottom: 50px;
 }
 
+// Carousel images
+
+.carousel, .client-list{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.popup{
+    visibility: hidden;
+
+    position: absolute;
+    color: #fff;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+} 
+
+.client-item:hover {
+    .popup {
+        visibility: visible;
+    }
+
+    .popup-triangle{
+        visibility: visible;
+
+        width: 75px;
+        height: 35px;
+        background-color: #333645;
+        left: 50%;
+        transform: translate(-50%, -1px);
+        clip-path: polygon(0 0, 50% 100%, 100% 0%);
+    }
+}
+
+.popup-banner{
+    
+    width: 250px;
+    text-align: center;
+    background-color: #333645;
+    color: #FFF;
+    padding: 20px 10px;
+}
+
+.popup-triangle{
+    position: absolute;
+    z-index: 100;
+
+    visibility: hidden;
+}
+
 // secondary content container
 
 .review-btn-container{
@@ -105,6 +166,7 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 
 // News section container
 

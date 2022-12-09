@@ -6,3 +6,11 @@
     max-width: 100%;
     display: block;
 }
+
+.carousel-item, .client-item {
+    margin: 30px;
+    filter: grayscale(100%);
+    &:hover{
+        filter:none;
+    }
+}
