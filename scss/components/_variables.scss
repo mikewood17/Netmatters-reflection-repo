@@ -44,6 +44,9 @@
             i {
                 color: #fff;
             }
+            .triangle{
+                background-color: $color;
+            }
             .nav-dropdown{
                 background-color: darken($color, 10%);
 

@@ -40,7 +40,6 @@
 }
 
 .triangle{
-    background-color: rgb(19, 255, 67);
     position: absolute;
     z-index: 100;
     visibility: none;
@@ -61,6 +60,7 @@
 }
 
 .nav-dropdown{
+    margin-top: -10px;
     left: 0;
     width: 100%;
     color: #FFF;
@@ -83,7 +83,7 @@
 
         width: 200px;
         height: 35px;
-        transform: translate(0, 14.5px);
+        transform: translate(-14px, 0px);
         clip-path: polygon(0 0,50% 100%,100% 0%);
     }
 }
