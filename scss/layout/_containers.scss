@@ -39,6 +39,13 @@
     }
 }
 
+.triangle{
+    background-color: rgb(19, 255, 67);
+    position: absolute;
+    z-index: 100;
+    visibility: none;
+}
+
 .nav-container{
     display: flex;
     flex-wrap: nowrap;
@@ -53,23 +60,31 @@
     width: 200px;
 }
 
-.nav__dropdown{
+.nav-dropdown{
     left: 0;
     width: 100%;
     color: #FFF;
     z-index: 99;
     background-color: #333645;
     position: absolute;
-    transform: translate(0, 4px);
-    padding-top: 50px;
+    // transform: translate(0, 15px);
+    padding-top: 80px;
     padding-bottom: 50px;
 
     visibility: hidden;
 }
 .top-nav:hover {
 
-    .nav__dropdown {
+    .nav-dropdown {
         visibility: visible;
+    }
+    .triangle {
+        visibility: visible;
+
+        width: 200px;
+        height: 35px;
+        transform: translate(0, 14.5px);
+        clip-path: polygon(0 0,50% 100%,100% 0%);
     }
 }
 
