@@ -57,6 +57,11 @@
         }
 
     }
+    .services_btn-#{$i} {
+        i {
+        color: $color;
+        }
+    }
 }
 
 @each $name, $color in $button-colors {

@@ -226,3 +226,116 @@
 .social-media{
     display: flex;
 }
+
+
+// side menu
+
+.side-menu{
+    display: block;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    background-color: #333645;
+    min-width: 275px;
+    height: 100vh;
+    overflow: auto;
+    z-index: 2;
+}
+
+
+.side-menu__small {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 21px;
+
+}
+
+.side-menu__contact{
+    color: #fff;
+    padding: 1.25em;
+    text-align: center;
+    background-color: #333645;
+    border-radius: 0.1875em;
+    outline: 1px solid rgba(0,0,0,0.25);
+    border: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 1.125em;
+    width: 13em;
+    margin-top: 1.125em;
+    font-size: 1.125em;
+
+    a{
+        color: #fff;
+    }
+}
+
+.side-menu__service{
+    margin-top: 20px;
+}
+
+.services_btn{
+    color: #fff;
+    text-decoration: none;
+    padding: 19px 0px 18px;
+    display: block;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    outline: 1px solid rgba(0,0,0,.25);
+    border: 1px solid hsla(0,0%,100%,.1);
+}
+
+.sm_service-items{
+    margin-top: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.sm_service-items ul li {
+    border-top: 0.5px solid rgba(255,255,255,0.05);
+    box-shadow: inset 0px -1px 1px #000;
+    color: #fff;
+    text-align: center;
+    width: 14.5em;
+    padding: 0.8125em;
+    background-color: #282b36;
+
+    a {
+        color: #fff;
+    }
+}
+
+// side menu large 
+
+.side-nav__header a {
+    display: block;
+    color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-decoration: none;
+    line-height: 1;
+    position: relative;
+
+    background-color: #333645;
+    border-top: 0.5px solid rgba(255,255,255,0.05);
+    box-shadow: inset 0px -1px 1px #000;
+}
+
+.side-nav__item{
+    border-top: 0.5px solid rgba(255,255,255,0.05);
+    box-shadow: inset 0px -1px 1px #000;
+    color: #fff;
+    padding: 1.25em 0 1.25em 1.25em;
+    background-color: #282b36;
+    font-size: .90625em;
+    a {
+        color: #fff;
+    }
+    i {
+        font-size: .60625em;
+    }
+}
