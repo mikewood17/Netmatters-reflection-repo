@@ -11,6 +11,6 @@
     margin: 30px;
     filter: grayscale(100%);
     &:hover{
-        filter:none;
+        filter: grayscale(0);
     }
 }

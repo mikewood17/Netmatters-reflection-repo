@@ -306,6 +306,7 @@ a {
 
 .client-item:hover .popup {
   visibility: visible;
+  background-color: aquamarine;
 }
 .client-item:hover .popup-triangle {
   visibility: visible;
@@ -324,6 +325,9 @@ a {
   background-color: #333645;
   color: #FFF;
   padding: 20px 10px;
+}
+.popup-banner p {
+  border-top: 5px solid #fff;
 }
 
 .popup-triangle {
@@ -772,7 +776,7 @@ a {
   filter: grayscale(100%);
 }
 .carousel-item:hover, .client-item:hover {
-  filter: none;
+  filter: grayscale(0);
 }
 
 .item-1 a {
