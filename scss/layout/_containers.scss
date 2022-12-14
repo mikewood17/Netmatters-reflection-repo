@@ -11,7 +11,8 @@
     padding-right: 15px;
 }
 
-// Headings container
+//Headings container
+
 .headings-container{
     display: flex;
     justify-content: space-between;
@@ -240,7 +241,7 @@
     background-color: #333645;
     min-width: 275px;
     height: 100vh;
-    overflow: auto;
+    overflow-x: hidden;
     z-index: 2;
     transition: 0.4s;
 }
@@ -252,7 +253,17 @@
     justify-content: flex-start;
     align-items: center;
     padding: 21px;
+}
 
+@media (min-width: 992px) {
+    .side-menu__small {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .side-menu__large{
+        display: none;
+    }
 }
 
 .side-menu__contact{

@@ -7,21 +7,40 @@
 const menu_btn = document.querySelector('.hamburger');
 const slide_menu = document.querySelector('.side-menu')
 const main = document.querySelector('.main');
+const mainHeader = document.querySelector(".main-header");
 
 function openMenu() {
     slide_menu.style.display = "block";
     main.style.marginRight = "300px";
+    mainHeader.style.marginRight = "300px";
 }
 
 function closeMenu() {
     slide_menu.style.display = "none";
     main.style.marginRight = "0px";
+    mainHeader.style.marginRight = "0px";
 }
 
 menu_btn.addEventListener('click', function() {
-    if (slide_menu.style.display === 'none') {
-        openMenu();
-    } else {
+    if (slide_menu.style.display === 'block') {
         closeMenu();
+    } else {
+        openMenu();
     }
 })
+
+// sticky header
+
+window.onscroll = function() {stickyHeader()};
+
+const header = document.getElementsByClassName("main-header");
+
+const sticky = header.offsetTop;
+
+function stickyHeader() {
+    if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+}
