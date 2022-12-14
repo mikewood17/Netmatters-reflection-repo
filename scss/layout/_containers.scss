@@ -242,7 +242,7 @@
     min-width: 275px;
     height: 100vh;
     overflow-x: hidden;
-    z-index: 2;
+    z-index: 99;
     transition: 0.4s;
 }
 
@@ -256,6 +256,9 @@
 }
 
 @media (min-width: 992px) {
+    .side-menu{
+        width: 350px;
+    }
     .side-menu__small {
         display: none;
     }

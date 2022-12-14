@@ -128,9 +128,6 @@
     .important-nav {
         display: flex;
     }
-    .side-menu{
-        width: 350px;
-    }
 }
 
 @media (min-width: 960px) and (max-width: 1249px) {
