@@ -296,6 +296,11 @@ a {
   flex-wrap: nowrap;
 }
 
+@media (max-width: 767px) {
+  .client-list {
+    display: none;
+  }
+}
 .popup {
   visibility: hidden;
   position: absolute;

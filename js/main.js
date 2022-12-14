@@ -44,3 +44,19 @@ function stickyHeader() {
         header.classList.remove("sticky");
       }
 }
+
+// owl carousel
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel();  
+  });
+
+  var owl = $('.owl-carousel');
+    owl.owlCarousel({
+    items:9,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true
+});
