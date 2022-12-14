@@ -19,7 +19,7 @@ function closeMenu() {
 }
 
 menu_btn.addEventListener('click', function() {
-    if (slide_menu.style.display = 'none') {
+    if (slide_menu.style.display === 'none') {
         openMenu();
     } else {
         closeMenu();
