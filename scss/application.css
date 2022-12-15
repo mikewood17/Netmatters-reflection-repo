@@ -527,6 +527,52 @@ a {
   font-size: 0.60625em;
 }
 
+.cookie-popup {
+  display: none;
+  background-color: #333645;
+  color: #fff;
+  width: 450px;
+  padding: 30px 40px;
+  position: absolute;
+  transform: transalte(-50%, -50%);
+  left: 40%;
+  top: 30%;
+  border-radius: 8px;
+}
+.cookie-popup a {
+  color: #fff;
+}
+
+.cookie-popup h2 {
+  color: #fff;
+}
+
+.cookie-popup p {
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.cookie-popup button {
+  display: block;
+  margin: 0 0 20px auto;
+  background-color: transparent;
+  font-size: 30px;
+  color: #c5c5c5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.cookie-button {
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: #888;
+}
+
 .main-footer {
   text-align: center;
   background-color: #333645;

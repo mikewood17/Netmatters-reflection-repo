@@ -61,3 +61,10 @@ $(document).ready(function(){
     autoplayHoverPause:true,
     autoWidth: true
 });
+
+// cookie popup
+
+document.querySelector('#close').addEventListener
+("click", function(){
+    document.querySelector(".cookie-popup").style.display = "none";
+});
