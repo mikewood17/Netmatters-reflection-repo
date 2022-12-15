@@ -116,6 +116,10 @@
     align-items: center;
     flex-wrap: nowrap;
 }
+.owl-item{
+    max-height: 100px !important;
+    max-width: auto !important;
+}
 
 @media (max-width: 767px) {
     .client-list{
