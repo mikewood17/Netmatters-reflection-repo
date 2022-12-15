@@ -117,8 +117,9 @@
     flex-wrap: nowrap;
 }
 .owl-item{
-    max-height: 100px !important;
+    max-height: 120px !important;
     max-width: auto !important;
+    margin-right: 50px !important;
 }
 
 @media (max-width: 767px) {
