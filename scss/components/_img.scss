@@ -14,3 +14,8 @@
         filter: grayscale(0);
     }
 }
+
+.client-img, .carousel-item img {
+    width: 100%;
+    height: auto;
+}

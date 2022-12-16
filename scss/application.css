@@ -17,6 +17,10 @@ body {
   overflow-x: hidden;
 }
 
+.main {
+  margin-right: 0;
+}
+
 div {
   display: block;
 }
@@ -294,6 +298,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+  width: 100%;
 }
 
 .owl-item {
@@ -421,7 +426,7 @@ a {
   min-width: 275px;
   height: 100vh;
   overflow-x: hidden;
-  z-index: 99;
+  z-index: 101;
   transition: 0.4s;
 }
 
@@ -439,6 +444,9 @@ a {
   }
   .side-menu__small {
     display: none;
+  }
+  .menu-open {
+    margin-right: 350px !important;
   }
 }
 @media (max-width: 992px) {
@@ -527,13 +535,34 @@ a {
   font-size: 0.60625em;
 }
 
+.cookie-consent {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  -ms-flex-pack: center !important;
+  padding: 30px;
+  cursor: pointer;
+}
+
 .cookie-popup {
   background-color: #fff;
   color: #000;
   width: 600px;
   position: absolute;
   transform: transalte(-50%, -50%);
-  left: 35%;
+  left: 28%;
   top: 30%;
   border-radius: 5px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -972,6 +1001,11 @@ a {
 }
 .carousel-item:hover, .client-item:hover {
   filter: grayscale(0);
+}
+
+.client-img, .carousel-item img {
+  width: 100%;
+  height: auto;
 }
 
 .sticky {
