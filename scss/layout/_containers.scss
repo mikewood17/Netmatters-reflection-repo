@@ -403,12 +403,13 @@
     width: 600px;
     position: absolute;
     transform: transalte(-50%,-50%);
-    left: 28%;
+    left: 30%;
     top: 30%;
     border-radius: 5px;
     box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
     background-clip: padding-box;
     outline: none;
+    z-index: 101;
     a {
         color: #fff;
     }
@@ -455,7 +456,13 @@
 }
 .cookie-button{
     background-color: #926fb1;
+    &:hover{
+        background-color: #785993;
+    }
 }
 .manage-cookies{
     background-color: #888;
+    &:hover{
+        background-color: rgb(97, 96, 96);
+    }
 }
