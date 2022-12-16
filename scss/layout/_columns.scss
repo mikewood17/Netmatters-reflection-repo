@@ -12,13 +12,14 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
-    top: 180px;
+    // top: 180px; was using with sticky header but cant get it to function with slide nav
 }
-@media (min-width:769px) and (max-width: 959px){
-    .banner{
-        top: 100px;
-    }
-}
+// @media (min-width:769px) and (max-width: 959px){
+//     .banner{
+//         top: 100px;
+//     }
+// } was using with sticky header but cant get it to function with slide nav
+
 .banner-content {
     color: #fff;
     display: flex;

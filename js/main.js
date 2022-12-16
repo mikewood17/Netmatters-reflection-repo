@@ -10,7 +10,7 @@ const backgroundFade = document.querySelector('.cookie-consent');
 const menu_btn = document.querySelector('.hamburger');
 const slide_menu = document.querySelector('.side-menu')
 const main = document.querySelector('.main');
-const mainHeader = document.querySelector(".main-header");
+const mainHeader = document.querySelector(".header");
 
 function openMenu() {
     slide_menu.style.display = "block";

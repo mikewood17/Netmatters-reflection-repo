@@ -72,14 +72,8 @@ a {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  top: 180px;
 }
 
-@media (min-width: 769px) and (max-width: 959px) {
-  .banner {
-    top: 100px;
-  }
-}
 .banner-content {
   color: #fff;
   display: flex;
@@ -289,7 +283,6 @@ a {
 }
 
 .our-services-container {
-  margin-top: 300px;
   margin-bottom: 50px;
 }
 
@@ -654,16 +647,6 @@ a {
 .header {
   width: 100%;
   padding-top: 0.5em;
-  width: 100%;
-  position: fixed;
-  top: -30px;
-  z-index: 98;
-  transition: top 0.2s ease-in-out;
-  background-color: #fff;
-}
-
-.nav-up {
-  top: -100px;
 }
 
 .upper {
