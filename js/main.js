@@ -47,19 +47,7 @@ backgroundFade.addEventListener('click', function(){
 
 // sticky header
 
-// window.onscroll = function() {stickyHeader()};
 
-// const header = document.getElementsByClassName("main-header");
-
-// const sticky = header.offsetTop;
-
-// function stickyHeader() {
-//     if (window.pageYOffset > sticky) {
-//         header.classList.add("sticky");
-//       } else {
-//         header.classList.remove("sticky");
-//       }
-// }
 
 // owl carousel
 

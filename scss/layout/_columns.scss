@@ -12,6 +12,12 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
+    top: 180px;
+}
+@media (min-width:769px) and (max-width: 959px){
+    .banner{
+        top: 100px;
+    }
 }
 .banner-content {
     color: #fff;
