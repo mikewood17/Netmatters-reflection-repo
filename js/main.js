@@ -2,6 +2,8 @@
 // Main Javascript
 // =================================
 
+const body = document.getElementsByTagName('body');
+
 // slideout menu
 
 const menu_btn = document.querySelector('.hamburger');
@@ -65,22 +67,22 @@ $(document).ready(function(){
 // cookie popup
 
 const cookieButton = document.querySelector('.cookie-button');
+const cookiePopup = document.querySelector('.cookie-popup')
 
-window.addEventListener("load", function(){
-    this.setTimeout(
-        function open(event){
-            document.querySelector(".cookie-popup").style.display = "block";
-        },
-        1000
-    )
-});
+function cookieGet(){
+    cookiePopup.style.display = 'none';
+    localStorage.setItem('cookies', 'accepted');
+    body[0].style.overflow = 'scroll';
+}
 
-cookieButton.addEventListener("click", function(){
-    document.querySelector(".cookie-popup").style.display = "none";
-});
+if (localStorage.getItem('cookies')){
+    cookiePopup.style.display = 'none';
+} else {
+    cookiePopup.style.display = 'grid';
+    body[0].style.overflow = 'hidden';
+}
 
-document.querySelector('#close').addEventListener
-("click", function(){
-    document.querySelector(".cookie-popup").style.display = "none";
-});
+cookieButton.addEventListener('click', cookieGet);
+
+
 
