@@ -31,19 +31,19 @@ menu_btn.addEventListener('click', function() {
 
 // sticky header
 
-window.onscroll = function() {stickyHeader()};
+// window.onscroll = function() {stickyHeader()};
 
-const header = document.getElementsByClassName("main-header");
+// const header = document.getElementsByClassName("main-header");
 
-const sticky = header.offsetTop;
+// const sticky = header.offsetTop;
 
-function stickyHeader() {
-    if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-      } else {
-        header.classList.remove("sticky");
-      }
-}
+// function stickyHeader() {
+//     if (window.pageYOffset > sticky) {
+//         header.classList.add("sticky");
+//       } else {
+//         header.classList.remove("sticky");
+//       }
+// }
 
 // owl carousel
 
@@ -64,7 +64,23 @@ $(document).ready(function(){
 
 // cookie popup
 
+const cookieButton = document.querySelector('.cookie-button');
+
+window.addEventListener("load", function(){
+    this.setTimeout(
+        function open(event){
+            document.querySelector(".cookie-popup").style.display = "block";
+        },
+        1000
+    )
+});
+
+cookieButton.addEventListener("click", function(){
+    document.querySelector(".cookie-popup").style.display = "none";
+});
+
 document.querySelector('#close').addEventListener
 ("click", function(){
     document.querySelector(".cookie-popup").style.display = "none";
 });
+
